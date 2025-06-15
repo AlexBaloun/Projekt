@@ -1,0 +1,7 @@
+body {
+    background: url("images/backround.jpg") center fixed; 
+    background-color: #797979; 
+    background-blend-mode: overlay;
+    background-size: cover; 
+    background-repeat: no-repeat;
+  }

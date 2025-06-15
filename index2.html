@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hraci</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootswatch/dist/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/flag-icons/css/flag-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav ms-3">
+            <li class="nav-item">
+                <a class="nav-link" href="index1.html">Domů</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="index2.html">Hráči</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index3.html">Progress bar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index4.html">Kontakt</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ms-auto me-3">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Přihlášení</a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="index5.html">Login</a></li>
+                    <li><a class="dropdown-item" href="index6.html">Registrace</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <ul class="nav nav-tabs bg-dark p-2 pb-0">
+        <li class="nav-item">
+            <a class="nav-link bg-dark text-white fw-bold border-bottom active" data-bs-toggle="tab" href="#home">Hráči</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-dark text-white fw-bold border-bottom" data-bs-toggle="tab" href="#menu1">Trenéři</a>
+        </li>
+    </ul>
+    
+    <div class="tab-content">
+        <div class="tab-pane container active" id="home">
+            <div class="container">
+    
+                <div class="container p-3 my-5 bg-dark text-center d-block w-25 rounded-4 border">
+                    <h1 class="text-light">Hráči</h1>
+                    <h5 class="text-light">Aktuální soupiska</h5>
+                </div>
+    
+                <div class="container p-3 my-5">
+                    <div class="row">
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/raya.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Brankář">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">David Raya</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-es"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> BR</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 44</p>
+                                    <p class="card-text text-light"><strong>Čistá konta:</strong> 16</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/neto.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Brankář">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Neto</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-br"></span> ┃ <span class="fi fi-it"></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> BR</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 4</p>
+                                    <p class="card-text text-light"><strong>Čistá konta:</strong> 0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/saliba.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">William Saliba</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-fr"></span> ┃ <span class="fi fi-cm"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> SO</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 41</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 2/0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/gabriel.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Gabriel Magalhães</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-br"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> SO</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 42</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 5/3</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/kiwior.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Jakub Kiwior</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-pl"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> SO</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 19</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 0/2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/calafiori.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Riccardo Calafiori</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-it"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> LO</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 26</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 3/2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/lewis-skelly.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Myles Lewis-Skelly</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-gb-eng"></span> ┃ <span class="fi fi-bb"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> LO</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 31</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 1/2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/zinchenko.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Oleksandr Zinchenko</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-ua"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> LO</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 17</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 1/0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/tierney.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Kieran Tierney</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-gb-sct"></span> ┃ <span class="fi fi-im"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> LO</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 12</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 0/0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/white.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Ben White</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-gb-eng"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> PO</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 17</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 0/1</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/timber.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Jurrien Timber</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-nl"></span> ┃ <span class="fi fi-cw"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> PO</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 42</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 2/3</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/tomiyasu.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Takehiro Tomiyasu</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-jp"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> PO</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 1</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 0/0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/partey.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Thomas Partey</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-gh"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> SDZ</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 43</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 3/3</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/jorginho.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Jorginho</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-it"></span> ┃ <span class="fi fi-br"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> SDZ</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 25</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 1/0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/rice.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Declan Rice</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-gb-eng"></span> ┃ <span class="fi fi-ie"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> SDZ/SZ</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 42</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 5/8</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/merino.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Mikel Merino</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-es"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> SZ</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 35</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 7/2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/odegaard.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Martin Ødegaard</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-no"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> SOZ</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 34</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 5/8</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/martinelli.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Gabriel Martinelli</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-br"></span> ┃ <span class="fi fi-it"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> LK</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 40</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 7/5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/trossard.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Leandro Trossard</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-be"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> LK/SÚ</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 45</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 7/8</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/saka.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Bukayo Saka</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-gb-eng"></span> ┃ <span class="fi fi-ng"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> PK</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 26</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 10/14</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/nwaneri.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Ethan Nwaneri</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-gb-eng"></span> ┃ <span class="fi fi-ng"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> PK</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 31</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 8/2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/sterling.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Raheem Sterling</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-gb-eng"></span> ┃ <span class="fi fi-jm"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> PK</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 24</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 1/5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/havertz.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Kai Havertz</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-de"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> HÚ/SOZ</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 34</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 15/5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/jesus.PNG" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Hráč">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Gabriel Jesus</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span
+                                            class="fi fi-br"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> HÚ</p>
+                                    <p class="card-text text-light mb-1"><strong>Zápasy:</strong> 27</p>
+                                    <p class="card-text text-light"><strong>Góly/Asistence:</strong> 7/2</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane container" id="menu1">
+
+            <div class="container p-3 my-5 bg-dark text-center d-block w-25 rounded-4 border">
+                <h1 class="text-light">Trenéři</h1>
+                <h5 class="text-light">Aktuální soupiska</h5>
+            </div>
+
+            <div class="container p-3 my-5">
+                    <div class="row">
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/arteta.png" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Trenéři">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Mikel Arteta</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span class="fi fi-es"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> Manažer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/stuivenberg.png" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Trenéři">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Albert Stuivenberg</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span class="fi fi-nl"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> Asistent manažera</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/molina.png" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Trenéři">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Miguel Molina</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span class="fi fi-es"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> Asistent manažera</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/cuesta.png" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Trenéři">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Carlos Cuesta</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span class="fi fi-es"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> Asistent manažera</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/cana.png" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Trenéři">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Iñaki Caña</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span class="fi fi-es"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> Brankářský kouč</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/nophoto.png" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Trenéři">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Terry Mason</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span class="fi fi-gb-eng"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> Brankářský kouč</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/nophoto.png" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Trenéři">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Barry Solan</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span class="fi fi-gb-eng"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> Fitness kouč</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/wilson.png" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Trenéři">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Sam Wilson</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span class="fi fi-gb-eng"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> Fitness kouč</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card card-h h-100 text-center bg-dark border">
+                                <img src="images/jover.png" class="card-img-top rounded-circle mx-auto mt-3 border"
+                                    style="width: 150px; height: 150px; object-fit: cover;" alt="Trenéři">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light">Nicolas Jover</h5>
+                                    <p class="card-text text-light mb-1"><strong>Národnost:</strong> <span class="fi fi-fr"></span> ┃ <span class="fi fi-de"></span></p>
+                                    <p class="card-text text-light mb-1"><strong>Pozice:</strong> Kouč standartních situací</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>        
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4 mt-5 border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    <h5 class="text-light pb-3">Web vytvořil</h5>
+                    <p>Alexandr Baloun</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2025 Arsenal FC.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

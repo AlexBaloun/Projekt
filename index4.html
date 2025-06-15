@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootswatch/dist/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/flag-icons/css/flag-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+      tinymce.init({
+        selector: '#message',
+        license_key: 'gpl|uvpdw29geb310zu233k8nz0vqhk2g0l79y9aeagnkno36c92'
+      });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark border-bottom">
+        <ul class="navbar-nav">
+            <li class="nav-item ms-3">
+                <a class="nav-link" href="index1.html">Domů</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index2.html">Hráči</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index3.html">Progress bar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="index4.html">Kontakt</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ms-auto me-3">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Přihlášení</a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="index5.html">Login</a></li>
+                    <li><a class="dropdown-item" href="index6.html">Registrace</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="container p-3 my-5 bg-dark text-center d-block w-25 rounded-4 border">
+            <h1 class="text-light">Kontakt</h1>
+            <h5 class="text-light">Pošlete nám zprávu</h5>
+        </div>
+        <div class="container p-3 my-5 bg-dark text-center d-block w-50 rounded-4 border">
+            <form method="post">
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" placeholder="Váš e-mail" name="email" id="email">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="form-floating">
+                        <textarea name="message" id="message" class="form-control" rows="5"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Odeslat</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container p-3 my-5 bg-dark text-center d-block w-25 rounded-4 border">
+            <h4 class="text-light">Často kladené otázky</h4>
+        </div>
+
+    <div id="accordion" class="container p-3 my-5 bg-dark text-center d-block w-50 rounded-4 border">
+        <div class="card">
+            <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                    Kdy byl Arsenal FC založen?
+                </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Klub byl založen v roce 1886 pod názvem Dial Square, později se přejmenoval na Arsenal a stal se jedním z nejúspěšnějších anglických klubů.
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                    Kolik trofejí má Arsenal FC?
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+          <table class="table table-bordered table-striped">
+            <thead class="table-secondary">
+              <tr>
+                <th>Trofej</th>
+                <th>Počet vítězství</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Premier League / První divize</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <td>FA Cup</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <td>Community Shield</td>
+                <td>17</td>
+              </tr>
+              <tr>
+                <td>League Cup</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Evropské poháry</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                    Kdo je největší legendou Arsenalu?
+                </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Za největší klubovou legendu je považován Thierry Henry, nejlepší střelec v historii Arsenalu, který za klub vstřelil 228 gólů.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4 mt-5 border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    <h5 class="text-light pb-3">Web vytvořil</h5>
+                    <p>Alexandr Baloun</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2025 Arsenal FC.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
